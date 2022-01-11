@@ -15,28 +15,11 @@ public class Tester{
     public static void main(String[] args) throws IOException{
         
 //			
-    		try {
-				System.out.println(LoginModule.authenticate_2("login", "password"));
-			} catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-    		System.out.println(LoginModule.message);
-//			
-    		
-//			System.out.println(LoginModule.register("balbinka", "log4j"));
-//			System.out.println(LoginModule.message);
-//			
-    		
-    	
-    	
-    	
-			//String [] dupa = LoginModule.getUserData("balbinka");
+			System.out.println(LoginModule.authenticate("login", "password"));
 			
-//			for (String column : LoginModule.getUserData("ogin")) {
-//				System.out.println(column);
-//				System.out.println(LoginModule.message);
-//			}
+    		System.out.println(LoginModule.message);
+	
+    
     }
     
  // Creates a single QR Code, then writes it to a PNG file and an SVG file.
